@@ -323,11 +323,14 @@ button[type=button].groen-ll3 {
   margin-left: auto;
   margin-right: auto;}
 
-  @media (min-width: 600px) {
+  @media (min-width:500px) {
     html {
       background-image: url("Grafisch-element-horizontaal.png");
       background-repeat: no-repeat;
       background-position: center;
+    }
+    body{
+      max-width:none;
     }
 
     h1 {
